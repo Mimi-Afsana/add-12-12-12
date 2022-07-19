@@ -23,5 +23,5 @@ const useAdmin = (user) => {
   }, [user]);
   return [admin, adLoading];
 };
-
+// useadmin
 export default useAdmin;
