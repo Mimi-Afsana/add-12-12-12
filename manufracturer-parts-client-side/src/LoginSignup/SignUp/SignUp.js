@@ -32,7 +32,7 @@ const SignUp = () => {
   const [token] = useToken(user || user1);
   const navigate = useNavigate();
   
-
+  // sign in error
   let signInError;
 
   if (loading || loading1 || load) {
